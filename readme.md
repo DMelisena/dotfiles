@@ -15,6 +15,16 @@ using the command below :
 the file will be on ~/.ssh
 open https://github.com/settings/keys 
 add the key from ~/.ssh/id_rsa.pub
+
+## lazyvim and hyprdots installation
+```
+$ git clone https://github.com/LazyVim/starter ~/.config/nvim
+$ pacman -Sy git lazyvim
+$ rm -rf ~/.config/nvim/.git
+
+$ git clone --depth 1 https://github.com/dmelisena/hyprdots ~/Hyprdots
+$ cd ~/Hyprdots/Scripts && ./install.sh
+```
 ## install stow and git
 ```
 $ sudo pacman -S stow git
