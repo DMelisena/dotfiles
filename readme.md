@@ -3,6 +3,18 @@
   2. lazyvim & Hyprdots installation
   3. OpenMC & PythonEnv Requirement
   4. Stowing
+
+## Git Initialization
+Install xorg-xinit xorg firefox to add the generated ssh key 
+using the command below :
+```
+ $ ssh-keygen -t rsa -b 4096 -C "demonlordx777@gmail.com" 
+ $ git config --global user.email "demonlordx777@gmail.com"
+ $ git config --global user.name "DMelisena"
+```
+the file will be on ~/.ssh
+open https://github.com/settings/keys 
+add the key from ~/.ssh/id_rsa.pub
 ## install stow and git
 ```
 $ sudo pacman -S stow git
