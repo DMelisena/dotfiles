@@ -1,3 +1,8 @@
+## Initialization Probable Requirement
+  1. Git Initialization
+  2. lazyvim & Hyprdots installation
+  3. OpenMC & PythonEnv Requirement
+  4. Stowing
 ## install stow and git
 ```
 $ sudo pacman -S stow git
