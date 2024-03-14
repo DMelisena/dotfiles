@@ -42,9 +42,6 @@ for example :
 ```
 cd $HOME $$ ls -lah .config/neofetch
 ```
-
-
 ## Adding file to stow
-
 move the file to dotfiles directory with $HOME = dotfiles equivalent
 for example : $HOME/.config/neofetch would be on the dotfiles/.config/neofetch
