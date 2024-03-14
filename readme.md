@@ -25,10 +25,10 @@ $ rm -rf ~/.config/nvim/.git
 $ git clone --depth 1 https://github.com/dmelisena/hyprdots ~/Hyprdots
 $ cd ~/Hyprdots/Scripts && ./install.sh
 ```
-## install stow and git
+## install stow
 source https://youtu.be/y6XCebnB9gs?si=Ihbl66OUaDZfM8ZB
 ```
-$ sudo pacman -S stow git
+$ sudo pacman -S stow
 ```
 clone the repo
 ```
@@ -44,5 +44,7 @@ for example :
 cd $HOME $$ ls -lah .config/neofetch
 ```
 ## Adding file to stow
-move the file to dotfiles directory with $HOME = dotfiles equivalent
-for example : $HOME/.config/neofetch would be on the dotfiles/.config/neofetch
+move the file to dotfiles directory with ($HOME = ../dotfiles) equivalent
+for example : $HOME/.config/neofetch would be on the ../dotfiles/.config/neofetch
+sometimes sudo is needed and refresh terminal before seeing the symlink connection
+
