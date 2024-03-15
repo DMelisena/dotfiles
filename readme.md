@@ -4,6 +4,11 @@
   3. OpenMC & PythonEnv Requirement
   4. Stowing
 
+## TODO:  
+  1. Add (S-x) as wlogout command
+  2. Keyboard light Function 
+  2. Install japanese keyboard and yomitan
+
 ## Git Initialization
 Install xorg-xinit xorg firefox to add the generated ssh key 
 using the command below :
