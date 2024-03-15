@@ -53,3 +53,13 @@ cd $HOME $$ ls -lah .config/neofetch
 move the file to dotfiles directory with ($HOME = ../dotfiles) equivalent
 for example : $HOME/.config/neofetch would be on the ../dotfiles/.config/neofetch
 
+##Setting up JP Keyboard
+1. Required packages : 
+```
+sudo pacman -S fcitx5 fcitx5-qt fcitx5-gtk fcitx5-mozc fcitx5-configtool
+```
+2. Open fcitx5-configtool and add mozc as input method
+3. Automatically initiate fcitx5 by adding it to hypr config
+```
+exec-once = fcitx5
+```
