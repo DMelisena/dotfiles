@@ -63,3 +63,6 @@ sudo pacman -S fcitx5 fcitx5-qt fcitx5-gtk fcitx5-mozc fcitx5-configtool
 ```
 exec-once = fcitx5
 ```
+## Important links :
+https://docs.python.org/3/library/venv.html
+read how venvs works to load the venv
