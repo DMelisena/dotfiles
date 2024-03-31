@@ -60,9 +60,17 @@ sudo pacman -S fcitx5 fcitx5-qt fcitx5-gtk fcitx5-mozc fcitx5-configtool
 ```
 2. Open fcitx5-configtool and add mozc as input method
 3. Automatically initiate fcitx5 by adding it to hypr config
+
 ```
 exec-once = fcitx5
 ```
+
+Update archlinux mirror
+
+```
+sudo pacman -S reflector & sudo reflector --latest 20 --sort rate --save /etc/pacman.d/mirrorlist
+```
+
 ## Important links :
 https://docs.python.org/3/library/venv.html
 read how venvs works to load the venv
