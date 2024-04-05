@@ -31,6 +31,12 @@ git clone --depth 1 https://github.com/dmelisena/hyprdots ~/Hyprdots
 cd ~/Hyprdots/Scripts && ./install.sh
 ```
 ## install stow
+##Updating Hyprdots
+```
+cd ~/hyprdots/Scripts
+git pull
+./install.sh -r
+```
 source https://youtu.be/y6XCebnB9gs?si=Ihbl66OUaDZfM8ZB
 ```
 sudo pacman -S stow
