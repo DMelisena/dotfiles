@@ -30,13 +30,13 @@ rm -rf ~/.config/nvim/.git
 git clone --depth 1 https://github.com/dmelisena/hyprdots ~/Hyprdots
 cd ~/Hyprdots/Scripts && ./install.sh
 ```
-## install stow
 ##Updating Hyprdots
 ```
 cd ~/hyprdots/Scripts
 git pull
 ./install.sh -r
 ```
+## install stow
 source https://youtu.be/y6XCebnB9gs?si=Ihbl66OUaDZfM8ZB
 ```
 sudo pacman -S stow
@@ -80,3 +80,9 @@ sudo pacman -S reflector & sudo reflector --latest 20 --sort rate --save /etc/pa
 ## Important links :
 https://docs.python.org/3/library/venv.html
 read how venvs works to load the venv
+
+checking openmc's versions :
+source the python venv, then :
+```
+python -c "import openmc; print(openmc.__version__)"
+```
