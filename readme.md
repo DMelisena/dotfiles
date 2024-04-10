@@ -7,7 +7,7 @@
 ## TODO:  
   1. Add (S-x) as wlogout command
   2. Keyboard light Function 
-  2. Install japanese keyboard and yomitan
+  3. Install japanese keyboard and yomitan
 
 ## Git Initialization
 Install xorg-xinit xorg firefox to add the generated ssh key 
@@ -59,7 +59,7 @@ cd $HOME $$ ls -lah .config/neofetch
 move the file to dotfiles directory with ($HOME = ../dotfiles) equivalent
 for example : $HOME/.config/neofetch would be on the ../dotfiles/.config/neofetch
 
-##Setting up JP Keyboard
+## Setting up JP Keyboard
 1. Required packages : 
 ```
 sudo pacman -S fcitx5 fcitx5-qt fcitx5-gtk fcitx5-mozc fcitx5-configtool
