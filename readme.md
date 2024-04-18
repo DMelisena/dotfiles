@@ -8,6 +8,7 @@
   1. Add (S-x) as wlogout command
   2. Keyboard light Function 
   3. Install japanese keyboard and yomitan
+  4. Find a way to replace the C-w </> to change window size on nvim
 
 ## Git Initialization
 Install xorg-xinit xorg firefox to add the generated ssh key 
