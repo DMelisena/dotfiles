@@ -87,3 +87,7 @@ source the python venv, then :
 ```
 python -c "import openmc; print(openmc.__version__)"
 ```
+sometimes pulseaudio in my system is being shitty (I think it's me problem) but if no microphone input is found. Try this:
+```
+rm -rf .config/pulse/
+```
