@@ -91,3 +91,7 @@ sometimes pulseaudio in my system is being shitty (I think it's me problem) but 
 ```
 rm -rf .config/pulse/
 ```
+To use notepad, authorize using this bash code on the hypr directory
+```
+chmod +x ifnotnote.sh 
+```
