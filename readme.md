@@ -91,7 +91,9 @@ bash vpn.sh
 ```
 sshpass -p "password" ssh -o StrictHostKeyChecking=no serverUsername@10.46.10.1xx
 ```
-replace the xx with computer code
+replace the xx with computer 
+replace the serverUsername and Password with the appropriate one
+
 
 ## Important links :
 https://docs.python.org/3/library/venv.html
