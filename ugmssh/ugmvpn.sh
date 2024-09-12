@@ -1,5 +1,5 @@
 #!/bin/sh -xe
-sudo openvpn --dev tun --config /home/sena/ugmssh/OpenVPN-TCP-110-multiple-server.ovpn
+sudo openvpn --dev tun --config ./OpenVPN-TCP-110-multiple-server.ovpn
 
 # Open a new Kitty window and execute a command
 kitty @ launch --title= sshpass -p "VBa36mp9" ssh -o StrictHostKeyChecking=no hanif@10.46.10.164"My New Window" --type=window -- bash -c "sshpass -p "VBa36mp9" ssh -o StrictHostKeyChecking=no hanif@10.46.10.164; exec bash"
