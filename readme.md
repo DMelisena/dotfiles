@@ -78,6 +78,21 @@ Update archlinux mirror
 sudo pacman -S reflector & sudo reflector --latest 20 --sort rate --save /etc/pacman.d/mirrorlist
 ```
 
+## Connecting to Server:
+1. create pass.txt on /dotfiles/ssh and enter a certain institution mail.
+the first line is the email withouth @ and beyond
+the second line is your password
+
+2. turn on the vpn using this command
+```
+bash vpn.sh
+```
+3. then use this command to connect to the server
+```
+sshpass -p "password" ssh -o StrictHostKeyChecking=no serverUsername@10.46.10.1xx
+```
+replace the xx with computer code
+
 ## Important links :
 https://docs.python.org/3/library/venv.html
 read how venvs works to load the venv
