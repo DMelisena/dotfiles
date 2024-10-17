@@ -46,6 +46,10 @@ clone the repo
 ```
 git clone git@github.com/DMelisena/dotfiles.git
 ```
+or
+```
+git clone https://github.com/DMelisena/dotfiles.git
+```
 use stow for symlinks on the dotfiles
 note : sometimes sudo is needed or refresh the terminal when seeing symlink condition on ranger
 ```
